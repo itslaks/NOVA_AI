@@ -5,9 +5,9 @@
 ```
   ╔══════════════════════════════════════════════════════════════╗
   ║                                                              ║
-  ║      ✦  ✦  ✦     N O V A   A I     ✦  ✦  ✦                  ║
+  ║      ✦  ✦  ✦     N O V A   A I     ✦  ✦  ✦                ║
   ║                                                              ║
-  ║         Voice Intelligence v12  —  Always Listening         ║
+  ║         Voice Intelligence v12  —  Always Listening          ║
   ║                                                              ║
   ╚══════════════════════════════════════════════════════════════╝
 ```
@@ -963,7 +963,7 @@ MIT License — free to use, modify, and distribute. Attribution appreciated but
 ```
   ╔════════════════════════════════════════════╗
   ║                                            ║
-  ║   ✦  Built with Python, patience, and ☕   ║
+  ║   ✦  Built with Python, patience, and ☕  ║
   ║                                            ║
   ║   NOVA AI — Your voice deserves to be      ║
   ║              heard.                        ║
