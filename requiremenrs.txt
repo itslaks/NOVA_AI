@@ -1,0 +1,31 @@
+# ════════════════════════════════════════════════════════════
+#  NOVA AI — Python Dependencies
+#  Install: pip install -r requirements.txt
+# ════════════════════════════════════════════════════════════
+
+# ── Core Framework ──────────────────────────────────────────
+flask>=3.0.0
+gradio>=4.36.0
+
+# ── Groq AI (STT + LLM) ─────────────────────────────────────
+groq>=0.9.0
+
+# ── Text-to-Speech ───────────────────────────────────────────
+edge-tts>=6.1.9
+gTTS>=2.5.0
+
+# ── Audio Recording ──────────────────────────────────────────
+pyaudio>=0.2.14
+
+# ── Web Search (Free — No API Key) ──────────────────────────
+duckduckgo-search>=6.1.0
+
+# ── HTTP Requests (Exchange Rates) ──────────────────────────
+requests>=2.31.0
+
+# ── Standard Library (already included in Python) ───────────
+# asyncio, sqlite3, threading, wave, struct, math
+# json, re, os, io, tempfile, traceback, datetime, pathlib
+
+# ── Optional: Faster async TTS ───────────────────────────────
+# aiofiles>=23.2.1

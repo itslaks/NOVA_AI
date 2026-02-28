@@ -1,0 +1,92 @@
+# ════════════════════════════════════════════════════════════
+#  NOVA AI — .gitignore
+#  Rename this file to .gitignore in your project root
+# ════════════════════════════════════════════════════════════
+
+# ── Secrets & Environment ─────────────────────────────────────
+.env
+.env.local
+.env.*.local
+*.env
+
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ── Virtual Environments ──────────────────────────────────────
+venv/
+env/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# ── IDE & Editors ─────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── macOS ─────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# ── Windows ───────────────────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ── Database (contains private conversations) ─────────────────
+*.db
+*.db-shm
+*.db-wal
+nova_conversations.db
+
+# ── Temporary Audio Files ─────────────────────────────────────
+*.mp3
+*.wav
+*.ogg
+/tmp/
+/temp/
+
+# ── Gradio Cache ──────────────────────────────────────────────
+gradio_cached_examples/
+.gradio/
+flagged/
+
+# ── Logs & Exports ────────────────────────────────────────────
+*.log
+logs/
+nova_export_*.json
+
+# ── Test Artifacts ────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── Node (if any tooling added later) ────────────────────────
+node_modules/
+npm-debug.log*
